@@ -8,9 +8,11 @@ yesBtn.addEventListener("click", () => {
   // Check the current state of the button text to toggle
   if (yesBtn.innerHTML === "Yes 😍") {
     yesBtn.innerHTML = "Love Test Again"; // Change text
+    question.innerHTML = "Really! I Love You Too Cash S♡♡♡♡ Much!"; // Change question
     gif.src = "GIFs/happy.gif"; // Change gif to happy
   } else {
     yesBtn.innerHTML = "Yes 😍"; // Reset text to Yes
+    question.innerHTML = "Do you love me cash"; // Reset question
     gif.src = "GIFs/sad.gif"; // Reset gif to sad
   }
 });
